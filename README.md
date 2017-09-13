@@ -1,15 +1,15 @@
 #SHOW ME THE NUMBERS: DESIGNING YOUR OWN DATA VISUALIZATIONS
 PEPFAR Applied Learning Summit | September 2017 | A. Chafetz
 
-#Overview
+## Overview
 In order to prepare for the upcoming POART, you need to look into testing as this was a potential issue brought up on the previous POART. There are a number of testing implementing mechanisms (IMs) working in PEPFARlandia. Rather than looking across all mechanisms, you have narrowed your scope down to the five IMs with the largest targets for FY17.  Your goal is to create a visualization that shows these mechanisms (a) FY17 cumulative achievement against targets and (b) their trend the last six quarters.
 
-#Accessing the Data
+## Accessing the Data
 To answer this question, you have accessed ICPI’s most recent IM Fact View file for PEPEFARlandia. Since the file is quite large, someone in your office has already subset the dataset to just contain HTS_POS and TX_NEW indicator data for Total Numerator and the MCAD age disaggregations. The file is saved in a txt format, meaning you will need to import it into Excel. To do so, open a new Excel window, and in the Data tab of the ribbon, select From Text and browse to your file. Once you have the Text Import Wizard open, just hit Finish and then OK.
 
  
 
-#Subsetting the Data of Interest
+## Subsetting the Data of Interest
 Now that you have the data imported into Excel, you can start crafting it to whittle it down to just the data you need. The data is currently in long form and you need to get into a usable table, selecting just some of the information and grouping and aggregating it by partner. This can be done through formulas in Excel, which can allow more flexibility; you have a quick turnaround time so you decided to pull this together via pivot table.
 
 To create the pivot table, you will need to select a cell, such as A1, in the sheet where your data is stored.  Once the cell is selected, you can go up to the Insert tab in the ribbon, select PivotTable and then hit OK in the popup screen.
@@ -43,7 +43,7 @@ Since you were asked about achievement as well as trends, you decide you want to
 
  
 
-#Creating the Base Visualizations
+## Creating the Base Visualizations
 Time for some graphing! For the first graph, you will want to select the headers and data in the top table.  With the data selected head to the Insert tab of the Ribbon, click Bar and then 2-D Clustered Bar.
 
  
@@ -52,7 +52,7 @@ You will repeat this process with the bottom table, but this time select a 2-D L
 
  
 
-#Improving Achievement [Graphs]
+## Improving Achievement [Graphs]
 Alright, so you have now graphed your visuals and could stop here, but there are lots of improvements you could make to craft a stronger and cleaner graph and message. You want to emphasize the achievement through color and size and cut out any extra lines or information that are not needed in chart, actively detracting from the focal point – your data. So, time to dig in, starting with the achievement graph. 
 
  
@@ -96,7 +96,7 @@ Repeat this for the bar second to the bottom. For the middle bar, you will fill 
 Only a couple more change to make! You want to remove the border so you right click on the chart and select Format Chart Area. Under Border Color, change it to No line. Close out of the window and click on the Chart Title, changing it to read “Achievement,” and reduce the font size to 16. And voila! You are done with the first visual.
  
 
-#Small Multiples Approach to Line Graphs
+## Small Multiples Approach to Line Graphs
 Line charts can be especially messy (and look like spaghetti) when there are quite a few lines being graphed. This can make the graph difficult to read. To clean things up in the initial line chart you created, you decided to break the visual into five separate graphs (called small multiples), one for each mechanism to clearly display the trends. To best approach this, you will want to format one graph exactly the way you want it to look and then copy it over, changing the underlying data.
 
 Before you get started, you will want to reorder to mechanisms in the lower table so they end up being graphed in the same order as the bar chart you just created. You will notice that the bar chart values in the table are sorted low to high but when graphed go from high to low. The easiest way to reorder you table is to add a number from 1 to 5 in the cells adjacent to your table. Select the whole table and sort it from high to low based. Under the Data tab of the ribbon, select the sort that goes from High to Low.
@@ -164,7 +164,7 @@ For the very last thing, you will want to match each of the graphed line colors 
 
  
 
-#Bringing it all together
+## Bringing it all together
 You now have the achievement graph and small multiples, it’s time to bring it all together. With the extra gap on the sixth quadrant of the line charts, you can reduce the size of the achievement graph and integrate it in with the rest of the visuals. 
 
 Select the achievement graph. To start with, in the Format Ribbon, arrange this graph by bringing it to the front. Next, with the chart still selected, go to the Size section of the Format ribbon and reduce the width to 2.1 inches to fit the gap in the series. Drag the graph to the sixth quadrant and then select both graphs 5 and 6 and Align Top. Select graphs 3 and 6 and Align Left.
