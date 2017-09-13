@@ -2,22 +2,23 @@
 PEPFAR Applied Learning Summit | September 2017 | A. Chafetz
 
 ## MATERIAL 
-** Presentation **
-[Click here to view the presentation](https://docs.google.com/presentation/d/e/2PACX-1vQ-vBKLVhkdW7aF-iruxcZRzja4WvRFcBfGXjQCftLD-w6u9Z3EgtiwMs80PRbVdYKwa7u0D5ECy_D3/pub?start=false&loop=false&delayms=3000)
+Presentation - [Click here to view the presentation](https://docs.google.com/presentation/d/e/2PACX-1vQ-vBKLVhkdW7aF-iruxcZRzja4WvRFcBfGXjQCftLD-w6u9Z3EgtiwMs80PRbVdYKwa7u0D5ECy_D3/pub?start=false&loop=false&delayms=3000)
 
-** Exercise Material **
-[Click here to download zipped folder contianing Excel files]( https://drive.google.com/uc?export=download&id=0B0kWHKt_xDVYbklPNERXcmRlLXc)
+Exercise Material - [Click here to download zipped folder contianing Excel files]( https://drive.google.com/uc?export=download&id=0B0kWHKt_xDVYbklPNERXcmRlLXc)
 
 ## EXERCISE 
 **Exercise Overview**
+
 In order to prepare for the upcoming POART, you need to look into testing as this was a potential issue brought up on the previous POART. There are a number of testing implementing mechanisms (IMs) working in PEPFARlandia. Rather than looking across all mechanisms, you have narrowed your scope down to the five IMs with the largest targets for FY17.  Your goal is to create a visualization that shows these mechanisms (a) FY17 cumulative achievement against targets and (b) their trend the last six quarters.
 
 **Accessing the Data**
+
 To answer this question, you have accessed ICPI’s most recent IM Fact View file for PEPEFARlandia. Since the file is quite large, someone in your office has already subset the dataset to just contain HTS_POS and TX_NEW indicator data for Total Numerator and the MCAD age disaggregations. The file is saved in a txt format, meaning you will need to import it into Excel. To do so, open a new Excel window, and in the Data tab of the ribbon, select From Text and browse to your file. Once you have the Text Import Wizard open, just hit Finish and then OK.
 
 ![screenshot](https://github.com/achafetz/pals_dataviz/blob/gh-pages/images/1.png)
 
 **Subsetting the Data of Interest**
+
 Now that you have the data imported into Excel, you can start crafting it to whittle it down to just the data you need. The data is currently in long form and you need to get into a usable table, selecting just some of the information and grouping and aggregating it by partner. This can be done through formulas in Excel, which can allow more flexibility; you have a quick turnaround time so you decided to pull this together via pivot table.
 
 To create the pivot table, you will need to select a cell, such as A1, in the sheet where your data is stored.  Once the cell is selected, you can go up to the Insert tab in the ribbon, select PivotTable and then hit OK in the popup screen.
@@ -53,6 +54,7 @@ Since you were asked about achievement as well as trends, you decide you want to
  ![screenshot](https://github.com/achafetz/pals_dataviz/blob/gh-pages/images/8.png) 
 
 **Creating the Base Visualizations**
+
 Time for some graphing! For the first graph, you will want to select the headers and data in the top table.  With the data selected head to the Insert tab of the Ribbon, click Bar and then 2-D Clustered Bar.
 
 ![screenshot](https://github.com/achafetz/pals_dataviz/blob/gh-pages/images/9.png) 
@@ -62,6 +64,7 @@ You will repeat this process with the bottom table, but this time select a 2-D L
 ![screenshot](https://github.com/achafetz/pals_dataviz/blob/gh-pages/images/10.png) 
 
 **Improving Achievement [Graphs]**
+
 Alright, so you have now graphed your visuals and could stop here, but there are lots of improvements you could make to craft a stronger and cleaner graph and message. You want to emphasize the achievement through color and size and cut out any extra lines or information that are not needed in chart, actively detracting from the focal point – your data. So, time to dig in, starting with the achievement graph. 
 
  ![screenshot](https://github.com/achafetz/pals_dataviz/blob/gh-pages/images/11.png)
@@ -107,6 +110,7 @@ Only a couple more change to make! You want to remove the border so you right cl
 ![screenshot](https://github.com/achafetz/pals_dataviz/blob/gh-pages/images/21.png) 
 
 **Small Multiples Approach to Line Graphs**
+
 Line charts can be especially messy (and look like spaghetti) when there are quite a few lines being graphed. This can make the graph difficult to read. To clean things up in the initial line chart you created, you decided to break the visual into five separate graphs (called small multiples), one for each mechanism to clearly display the trends. To best approach this, you will want to format one graph exactly the way you want it to look and then copy it over, changing the underlying data.
 
 Before you get started, you will want to reorder to mechanisms in the lower table so they end up being graphed in the same order as the bar chart you just created. You will notice that the bar chart values in the table are sorted low to high but when graphed go from high to low. The easiest way to reorder you table is to add a number from 1 to 5 in the cells adjacent to your table. Select the whole table and sort it from high to low based. Under the Data tab of the ribbon, select the sort that goes from High to Low.
@@ -149,40 +153,43 @@ Third, you do not need the border line around the graph as it’s just more char
 
 Alright, now that you have your template graph, you will just need to copy the graph and change the data source. Select the graph, copy it, and paste it adjacent to the first one. With the graph selected, the data in the table should be highlighted. You can pull the blue outline around the data down to the second mechanism in the table which will automatically update the graph’s source and visual.
 
-![screenshot](https://github.com/achafetz/pals_dataviz/blob/gh-pages/images/30.png)   
+![screenshot](https://github.com/achafetz/pals_dataviz/blob/gh-pages/images/31.png)   
 
 Repeat this process so that you have graphs for all five mechanisms in two rows, with the first row containing three mechanism and the second containing two.
 
- 
+![screenshot](https://github.com/achafetz/pals_dataviz/blob/gh-pages/images/32.png)   
 
 You notice there is a lot of repetitive text in the graphs that are taking up space and take away focus. A way to tidy things up here would be to reduce the y-axis to just graphs on the right, and axis to the graphs on the bottom. If you delete the axes, the sizing with be different across the graphs. A work around would just to recolor the text you do not need to white and shift everything closer together. In graphs 1, 2, and 3 (counting going from left to right and then top to bottom), change the x-axis font color to white. For graphs 2, 3, and 5, change the font color of the y-axis to white.
 
- 
+![screenshot](https://github.com/achafetz/pals_dataviz/blob/gh-pages/images/33.png)   
 
 Now that the text is reduced, it would be good to clean up the graphs by aligning them and bringing them closer together. Since you will be overlapping the graphs, you need to worry about the arrangement of the graphs (which graphs are on top of which). You need to start by selecting graph 2 and under the Format ribbon at the top, click on the drop down for Bring Forward and select Bring to Front. Repeat this process in for the graphs in the following order: 1, 5, 4. 
 
- 
+![screenshot](https://github.com/achafetz/pals_dataviz/blob/gh-pages/images/34.png)    
 
 With the graphs reordered, you can drag the graphs closer together so they have on a slight visible gap between them. To ensure the graphs look tidy, you will want to ensure they are all aligned. Select graphs 1, 2, 3 (holding the shift key down while clicking on each graph). In the Format ribbon under Align, first select Distribute Horizontally to ensure equal spacing between each and then select Align Top.
 
- 
+![screenshot](https://github.com/achafetz/pals_dataviz/blob/gh-pages/images/35.png)   
 
 The bottom graphs require a little more work. Start by selecting graphs 1 and 4. In the Format ribbon under Align, select Align Left. Repeat this process with graphs 2 and 5. Finally, select graphs 4 and 5 and under the Format ribbon, select Align Top. Drag graph 4 and 5 up so they are closer to the top line of graph, about the same distance as between graphs horizontally.  
 
- 
+![screenshot](https://github.com/achafetz/pals_dataviz/blob/gh-pages/images/36.png)   
+
 
 For the very last thing, you will want to match each of the graphed line colors to their associated achievement color to connect the two visuals. You will need to repeat the process you went through earlier to change the Marker Fill, Line Color, and Marker Line Color. 
 
+![screenshot](https://github.com/achafetz/pals_dataviz/blob/gh-pages/images/37.png)   
  
 
 **Bringing it all together**
+
 You now have the achievement graph and small multiples, it’s time to bring it all together. With the extra gap on the sixth quadrant of the line charts, you can reduce the size of the achievement graph and integrate it in with the rest of the visuals. 
 
 Select the achievement graph. To start with, in the Format Ribbon, arrange this graph by bringing it to the front. Next, with the chart still selected, go to the Size section of the Format ribbon and reduce the width to 2.1 inches to fit the gap in the series. Drag the graph to the sixth quadrant and then select both graphs 5 and 6 and Align Top. Select graphs 3 and 6 and Align Left.
 
+![screenshot](https://github.com/achafetz/pals_dataviz/blob/gh-pages/images/38.png)   
  
 
 Almost there! The two missing pieces currently are a title and source. To add in a title, go to the Insert ribbon and select Text Box, drawing it above the top of the graphs reading - PEPFARlandia "largest target" mechanisms see lower FY17Q2 results than the same point in FY16. Increase the font to 16, change the font to Franklin Gothic Medium, change the font color to a lighter black, and remove the outline. In the same text box, also add the subtitle in size 14 font - Mechanisms with the largest testing targets for FY17. The last thing you need to do is add a source to the bottom of the graph. Insert a new text box to the bottom, changing the color to a lighter black, size 10, Franklin Gothic Medium text with the outline removed  - Source: PEPFAR ICPI Fact View IM SNU FY17Q2 Clean dataset.
 
-  
-
+![screenshot](https://github.com/achafetz/pals_dataviz/blob/gh-pages/images/39.png)
