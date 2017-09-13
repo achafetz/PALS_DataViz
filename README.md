@@ -1,6 +1,9 @@
 # SHOW ME THE NUMBERS: DESIGNING YOUR OWN DATA VISUALIZATIONS
 PEPFAR Applied Learning Summit | September 2017 | A. Chafetz
 
+## Presentation
+[Click here to view the presentation](https://docs.google.com/presentation/d/e/2PACX-1vQ-vBKLVhkdW7aF-iruxcZRzja4WvRFcBfGXjQCftLD-w6u9Z3EgtiwMs80PRbVdYKwa7u0D5ECy_D3/pub?start=false&loop=false&delayms=3000)
+
 ## Overview
 In order to prepare for the upcoming POART, you need to look into testing as this was a potential issue brought up on the previous POART. There are a number of testing implementing mechanisms (IMs) working in PEPFARlandia. Rather than looking across all mechanisms, you have narrowed your scope down to the five IMs with the largest targets for FY17.  Your goal is to create a visualization that shows these mechanisms (a) FY17 cumulative achievement against targets and (b) their trend the last six quarters.
 
