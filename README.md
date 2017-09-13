@@ -1,10 +1,9 @@
 # SHOW ME THE NUMBERS: DESIGNING YOUR OWN DATA VISUALIZATIONS
-PEPFAR Applied Learning Summit | September 2017 | A. Chafetz
+PEPFAR Applied Learning Summit | September 2017 | A. Chafetz | USAID
 
 ## MATERIAL 
-Presentation - [Click here to view the presentation](https://docs.google.com/presentation/d/e/2PACX-1vQ-vBKLVhkdW7aF-iruxcZRzja4WvRFcBfGXjQCftLD-w6u9Z3EgtiwMs80PRbVdYKwa7u0D5ECy_D3/pub?start=false&loop=false&delayms=3000)
 
-Exercise Material - [Click here to download zipped folder contianing Excel files]( https://drive.google.com/uc?export=download&id=0B0kWHKt_xDVYbklPNERXcmRlLXc)
+[![presentation](https://github.com/achafetz/pals_dataviz/blob/gh-pages/images/presentation_icon.png)](https://docs.google.com/presentation/d/e/2PACX-1vQ-vBKLVhkdW7aF-iruxcZRzja4WvRFcBfGXjQCftLD-w6u9Z3EgtiwMs80PRbVdYKwa7u0D5ECy_D3/pub?start=false&loop=false&delayms=3000)     [![material folder](https://github.com/achafetz/pals_dataviz/blob/gh-pages/images/zip_icon.png)](https://drive.google.com/uc?export=download&id=0B0kWHKt_xDVYbklPNERXcmRlLXc)
 
 ## EXERCISE 
 **Exercise Overview**
