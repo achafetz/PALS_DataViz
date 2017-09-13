@@ -1,5 +1,6 @@
 # SHOW ME THE NUMBERS: DESIGNING YOUR OWN DATA VISUALIZATIONS
-PEPFAR Applied Learning Summit | September 2017 | A. Chafetz | USAID
+PEPFAR Applied Learning Summit | September 2017
+A. Chafetz | USAID
 
 ## MATERIAL 
 
