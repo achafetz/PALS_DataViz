@@ -3,7 +3,7 @@ PEPFAR Applied Learning Summit | September 2017 | A. Chafetz | USAID
 
 ## MATERIAL 
 
-[![presentation](https://github.com/achafetz/pals_dataviz/blob/gh-pages/images/presentation_icon.png)](https://docs.google.com/presentation/d/e/2PACX-1vQ-vBKLVhkdW7aF-iruxcZRzja4WvRFcBfGXjQCftLD-w6u9Z3EgtiwMs80PRbVdYKwa7u0D5ECy_D3/pub?start=false&loop=false&delayms=3000)     [![material folder](https://github.com/achafetz/pals_dataviz/blob/gh-pages/images/zip_icon.png)](https://drive.google.com/uc?export=download&id=0B0kWHKt_xDVYbklPNERXcmRlLXc)
+[![click for presentation](https://github.com/achafetz/pals_dataviz/blob/gh-pages/images/presentation_icon.png)](https://docs.google.com/presentation/d/e/2PACX-1vQ-vBKLVhkdW7aF-iruxcZRzja4WvRFcBfGXjQCftLD-w6u9Z3EgtiwMs80PRbVdYKwa7u0D5ECy_D3/pub?start=false&loop=false&delayms=3000)          [![click for material folder](https://github.com/achafetz/pals_dataviz/blob/gh-pages/images/zip_icon.png)](https://drive.google.com/uc?export=download&id=0B0kWHKt_xDVYbklPNERXcmRlLXc)
 
 ## EXERCISE 
 **Exercise Overview**
