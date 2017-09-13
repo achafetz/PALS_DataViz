@@ -39,7 +39,7 @@ You’ll notice that the values are all counts (i.e. the number of rows in the d
 
 One additional feature you will want to add is the target achievement as a calculated item in the pivot table. To add this field, you will need to go up to the Options tab, click on Fields, Items, & Sets and then calculated field. In the popup window, you need to add a name, “achievement” as well as the calculation – “=(fy2017q1+fy2017q2 )/fy2017_targets”. Once you hit OK, the new field will be added to the pivot table.
 
-![screenshot](https://github.com/achafetz/pals_dataviz/blob/gh-pages/images/5.png)         
+![screenshot](https://github.com/achafetz/pals_dataviz/blob/gh-pages/images/5.PNG)         
 
 Since you are interested in only the top mechanisms with the largest targets, you should to sort your targets column from high to low. To do this, you will right click on a value in the fy2017_targets column, scroll down to Sort and then sort the column from largest to smallest.
 
@@ -95,7 +95,7 @@ Since you removed the x-axis, you will need to directly label the bars. To add a
 
 This adds data labels to the end of each bar; to make the achievement amount more readable, it would be great to format the numbers as a percentage and move the location to the base of the bars so they are all in line with each other. To reformat the number, select any of the data labels, right click and bring up the formatting tab. Change the Label Position to Inside Base. Next, under Number, change the Category to Percentage and the Decimal places to 0.
 
-![screenshot](https://github.com/achafetz/pals_dataviz/blob/gh-pages/images/18.png)    
+![screenshot](https://github.com/achafetz/pals_dataviz/blob/gh-pages/images/18.PNG)    
 
 To better convey your message, you can color-code the bars so the audience can easily associate the percentage with where the partner should be at this point in the year.  To recolor a bar, double click on that bar so only it is selected. Using Fill Color (the paint bucket icon) in the Font section of the Home Ribbon, select More Colors. Under the Custom tab, change the Red, Green, Blue values to 255, 102, 0. 
 
