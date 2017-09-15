@@ -16,6 +16,7 @@ In order to prepare for the upcoming POART, you need to look into testing as thi
 To answer this question, you have accessed ICPI’s most recent IM Fact View file for PEPEFARlandia. Since the file is quite large, someone in your office has already subset the dataset to just contain HTS_POS and TX_NEW indicator data for Total Numerator and the MCAD age disaggregations. The file is saved in a txt format, meaning you will need to import it into Excel. To do so, open a new Excel window, and in the Data tab of the ribbon, select From Text and browse to your file. Once you have the Text Import Wizard open, just hit Finish and then OK.
 
 ![screenshot](https://github.com/achafetz/pals_dataviz/blob/gh-pages/images/1.png){:class="img-responsive"}
+<img class = "img-responsive" src="https://github.com/achafetz/pals_dataviz/blob/gh-pages/images/1.png">
 
 **Subsetting the Data of Interest**
 
