@@ -4,12 +4,9 @@ PEPFAR Applied Learning Summit | September 2017 | A. Chafetz | USAID
 ## MATERIAL 
 
 
-<a href="https://docs.google.com/presentation/d/e/2PACX-1vQ-vBKLVhkdW7aF-iruxcZRzja4WvRFcBfGXjQCftLD-w6u9Z3EgtiwMs80PRbVdYKwa7u0D5ECy_D3/pub?start=false&loop=false&delayms=3000">
- <img src="images/presentation_icon.png" alt="presentation"> 
-</a>
+<a href="https://docs.google.com/presentation/d/e/2PACX-1vQ-vBKLVhkdW7aF-iruxcZRzja4WvRFcBfGXjQCftLD-w6u9Z3EgtiwMs80PRbVdYKwa7u0D5ECy_D3/pub?start=false&loop=false&delayms=3000"> <img src="images/presentation_icon.png" alt="presentation"> </a>
 
- 
- <img src="images/zip_icon.png" alt="zipfile"> 
+<a href="https://drive.google.com/uc?export=download&id=0B0kWHKt_xDVYbklPNERXcmRlLXc"> <img src="images/zip_icon.png" alt="zipfile"> </a> 
 
  https://drive.google.com/uc?export=download&id=0B0kWHKt_xDVYbklPNERXcmRlLXc    
 
