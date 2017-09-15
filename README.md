@@ -69,7 +69,7 @@ You will repeat this process with the bottom table, but this time select a 2-D L
 
 Alright, so you have now graphed your visuals and could stop here, but there are lots of improvements you could make to craft a stronger and cleaner graph and message. You want to emphasize the achievement through color and size and cut out any extra lines or information that are not needed in chart, actively detracting from the focal point – your data. So, time to dig in, starting with the achievement graph. 
 
- <img class = "img-responsive" src="images/11.png)
+ <img class = "img-responsive" src="images/11.png">
 
 There is a lot of “chart junk” going on in this graph. Start with the easy stuff; remove the legend by clicking on it and then hitting delete.
 
@@ -81,11 +81,11 @@ Next, you decided to get rid of all the line and tick marks. To remove the gridl
 
 While formatting the y-axis, you will also want to change the color to a lighter saturation so it is not as prominent. Under Line Color, change the radio button from Automatic to Solid line, and change it to “White, Background 1, Darker 25%” (the first column down, fourth from the top). Now you can close out of the y-axis formatting.
 
- <img class = "img-responsive" src="images/14.png)
+ <img class = "img-responsive" src="images/14.png">
 
 Next up, you will move onto the x-axis. You plan on directly labeling the bars, so there is no need to have the axis. But before you do, you are going to limit the view to 100% max.  Right click on the x-axis and select Format. Change the Maximum from Auto to Fixed at 1. You can close out of the formatting window and remove the x-axis, by selecting it and hitting delete.
 
- <img class = "img-responsive" src="images/15.png)
+ <img class = "img-responsive" src="images/15.png">
 
 Things are looking good, but it would be better to increase the size of the each of the bars’ widths so there is less white space and the bars are more prominent. Select one of the bars and right click to pull up the formatting. Once there, change the Gap Width from 150% to 50%.
 
@@ -101,7 +101,7 @@ This adds data labels to the end of each bar; to make the achievement amount mor
 
 To better convey your message, you can color-code the bars so the audience can easily associate the percentage with where the partner should be at this point in the year.  To recolor a bar, double click on that bar so only it is selected. Using Fill Color (the paint bucket icon) in the Font section of the Home Ribbon, select More Colors. Under the Custom tab, change the Red, Green, Blue values to 255, 102, 0. 
 
- <img class = "img-responsive" src="images/19.png)
+ <img class = "img-responsive" src="images/19.png">
 
 Repeat this for the bar second to the bottom. For the middle bar, you will fill it with green (RBG - 44, 162, 95) and the top two bars are above 60% so you can fill them with a blue (RGB - 85, 142, 213). To make the values more readable, single click on any of the percentages. With the series selected, in the Font portion of the Home ribbon, change the color to white.
 
@@ -194,4 +194,4 @@ Select the achievement graph. To start with, in the Format Ribbon, arrange this 
 
 Almost there! The two missing pieces currently are a title and source. To add in a title, go to the Insert ribbon and select Text Box, drawing it above the top of the graphs reading - PEPFARlandia "largest target" mechanisms see lower FY17Q2 results than the same point in FY16. Increase the font to 16, change the font to Franklin Gothic Medium, change the font color to a lighter black, and remove the outline. In the same text box, also add the subtitle in size 14 font - Mechanisms with the largest testing targets for FY17. The last thing you need to do is add a source to the bottom of the graph. Insert a new text box to the bottom, changing the color to a lighter black, size 10, Franklin Gothic Medium text with the outline removed  - Source: PEPFAR ICPI Fact View IM SNU FY17Q2 Clean dataset.
 
-<img class = "img-responsive" src="images/39.png)
+<img class = "img-responsive" src="images/39.png">
