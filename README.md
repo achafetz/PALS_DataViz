@@ -4,9 +4,13 @@ PEPFAR Applied Learning Summit | September 2017 | A. Chafetz | USAID
 ## MATERIAL 
 
 
-<a href="https://docs.google.com/presentation/d/e/2PACX-1vQ-vBKLVhkdW7aF-iruxcZRzja4WvRFcBfGXjQCftLD-w6u9Z3EgtiwMs80PRbVdYKwa7u0D5ECy_D3/pub?start=false&loop=false&delayms=3000"> <img class = "img-responsive" src="presentation_icon.png"> </a>
+<a href="https://docs.google.com/presentation/d/e/2PACX-1vQ-vBKLVhkdW7aF-iruxcZRzja4WvRFcBfGXjQCftLD-w6u9Z3EgtiwMs80PRbVdYKwa7u0D5ECy_D3/pub?start=false&loop=false&delayms=3000"> 
+ <img src="presentation_icon.png"> 
+</a>
 
-<a href="https://drive.google.com/uc?export=download&id=0B0kWHKt_xDVYbklPNERXcmRlLXc"> <img class = "img-responsive" src="zip_icon.png"> </a>    
+<a href="https://drive.google.com/uc?export=download&id=0B0kWHKt_xDVYbklPNERXcmRlLXc"> 
+ <img src="zip_icon.png"> 
+</a>    
 
 ## EXERCISE 
 **Exercise Overview**
@@ -41,7 +45,7 @@ You’ll notice that the values are all counts (i.e. the number of rows in the d
 
 One additional feature you will want to add is the target achievement as a calculated item in the pivot table. To add this field, you will need to go up to the Options tab, click on Fields, Items, & Sets and then calculated field. In the popup window, you need to add a name, “achievement” as well as the calculation – “=(fy2017q1+fy2017q2 )/fy2017_targets”. Once you hit OK, the new field will be added to the pivot table.
 
-<img class = "img-responsive" src="images/5.png">        
+<img class = "img-responsive" src="images/5.PNG">        
 
 Since you are interested in only the top mechanisms with the largest targets, you should to sort your targets column from high to low. To do this, you will right click on a value in the fy2017_targets column, scroll down to Sort and then sort the column from largest to smallest.
 
